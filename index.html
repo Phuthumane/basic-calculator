@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0" />
+    <title>basic-calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <input id="displayScreen" readonly />
+      <div id="keypad">
+        <button onclick="updateDisplayScreen('%')">%</button>
+        <button onclick="clearDisplayScreen()">CE</button>
+        <button onclick="deleteLast()">del</button>
+
+        <button onclick="clearDisplayScreen()" class="operator-btn">C</button>
+        <button onclick="updateDisplayScreen('7')">7</button>
+        <button onclick="updateDisplayScreen('8')">8</button>
+        <button onclick="updateDisplayScreen('9')">9</button>
+        <button onclick="updateDisplayScreen('+')" class="operator-btn">
+          +
+        </button>
+        <button onclick="updateDisplayScreen('4')">4</button>
+        <button onclick="updateDisplayScreen('5')">5</button>
+        <button onclick="updateDisplayScreen('6')">6</button>
+        <button onclick="updateDisplayScreen('-')" class="operator-btn">
+          -
+        </button>
+        <button onclick="updateDisplayScreen('1')">1</button>
+        <button onclick="updateDisplayScreen('2')">2</button>
+        <button onclick="updateDisplayScreen('3')">3</button>
+        <button onclick="updateDisplayScreen('*')" class="operator-btn">
+          x
+        </button>
+        <button onclick="updateDisplayScreen('0')">0</button>
+        <button onclick="updateDisplayScreen('.')">.</button>
+        <button onclick="calculate()" class="calc-button">=</button>
+        <button onclick="updateDisplayScreen('/')" class="operator-btn">
+          /
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
