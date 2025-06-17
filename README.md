@@ -10,7 +10,7 @@ This project performs basic arithmetic operations like addition, subtraction, mu
 ## Features
 
 - Clean and responsive UI
-- Supports +, –, ×, ÷ operations
+- Supports +, –, ×, ÷ , % operations
 - Fully client-side (no frameworks)
 
 ## Technologies Used
