@@ -7,6 +7,10 @@ This project performs basic arithmetic operations like addition, subtraction, mu
 
 ![Calculator Screenshot](screenshot.png)
 
+## 🌐 Live Demo
+
+Play it here 👉 [https://phuthumane.github.io/basic-calculator](https://phuthumane.github.io/basic-calculator)
+
 ## Features
 
 - Clean and responsive UI
